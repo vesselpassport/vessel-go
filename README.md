@@ -53,3 +53,6 @@ func HandleWeb3UserRequest(w http.ResponseWriter, req *http.Request) {
 	fmt.Fprintf(w, "<h2>Has Web3 Verified SMS: %v (%s)\r\n</h2>", (len(verified_sms) != 0), verified_sms)
 }
 ```
+
+## Support
+Have questions while integrating Vessel into your app? Reach out to us at developers@vessel.xyz!
